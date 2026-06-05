@@ -24,8 +24,8 @@
     :root {
       --serif: 'Playfair Display', Georgia, serif;
       --sans: 'Lato', sans-serif;
-      --bg: #faf7f0;
-      --surface: #fdfbf6;
+      --bg: #ffffff;
+      --surface: #ffffff;
       --ink: #1e2a1a;
       --muted: #6b6050;
       --hint: #a09580;
@@ -72,17 +72,17 @@
         to bottom,
         transparent 0%,
         transparent 18%,
-        rgba(250,247,240,0.15) 35%,
-        rgba(250,247,240,0.55) 55%,
-        rgba(250,247,240,0.85) 75%,
-        #faf7f0 100%
+        rgba(255,255,255,0.15) 35%,
+        rgba(255,255,255,0.55) 55%,
+        rgba(255,255,255,0.85) 75%,
+        #ffffff 100%
       );
     }
 
     /* ── NAV ── */
     header {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(250,247,240,0.93);
+      background: rgba(255,255,255,0.93);
       backdrop-filter: blur(8px);
       border-bottom: 1px solid var(--rule);
     }
@@ -144,7 +144,7 @@
       font-size: 12px; letter-spacing: 0.04em;
       color: var(--muted); text-decoration: none;
       border: 1px solid var(--rule); border-radius: 20px;
-      padding: 5px 14px; background: rgba(253,251,246,0.7);
+      padding: 5px 14px; background: rgba(255,255,255,0.7);
       transition: border-color 0.2s, color 0.2s, background 0.2s;
     }
     .chip:hover { border-color: var(--green-mid); color: var(--green-deep); background: var(--green-pale); }
@@ -206,7 +206,7 @@
     .btn-dl {
       display: inline-flex; align-items: center; gap: 8px;
       font-size: 12px; letter-spacing: 0.07em; text-transform: uppercase;
-      color: #fdfbf6; text-decoration: none;
+      color: #ffffff; text-decoration: none;
       background: var(--green-deep); border-radius: 6px; padding: 10px 22px;
       white-space: nowrap; transition: background 0.2s;
     }
@@ -244,7 +244,7 @@
     /* ── TEACHING ── */
     .teaching-intro { font-size: 15px; color: var(--muted); line-height: 1.8; margin-bottom: 2.5rem; max-width: 580px; }
     .course-card {
-      background: rgba(253,251,246,0.8); border: 1px solid var(--rule);
+      background: rgba(255,255,255,0.8); border: 1px solid var(--rule);
       border-radius: 10px; padding: 1.4rem 1.6rem; margin-bottom: 1rem;
       display: grid; grid-template-columns: 1fr auto;
       gap: 0.5rem 1.5rem; align-items: start;
@@ -286,11 +286,11 @@
       inset: 0;
       background: linear-gradient(
         to bottom,
-        #faf7f0 0%,
-        rgba(250,247,240,0.92) 12%,
-        rgba(250,247,240,0.72) 25%,
-        rgba(250,247,240,0.42) 42%,
-        rgba(250,247,240,0.15) 58%,
+        #ffffff 0%,
+        rgba(255,255,255,0.92) 12%,
+        rgba(255,255,255,0.72) 25%,
+        rgba(255,255,255,0.42) 42%,
+        rgba(255,255,255,0.15) 58%,
         transparent 75%
       );
       z-index: 1;
@@ -393,9 +393,9 @@
         <h1 class="home-name">Huiting Zou</h1>
         <p class="home-sub">[Your Title] &nbsp;·&nbsp; [Department]<br>[University Name]</p>
         <div class="home-bio">
-          <p>I am a PhD student at North Carolina State University. My research focuses on agricultural economics and environmental economics.</p>
-          <p>Prior to NC State, I recieved my M.A. in Economics from Waseda Univesity, my B.A. from South East University.</p>
-          <p> Feel free to reach out — I am always happy to discuss research and collaboration.</p>
+          <p>I am a [PhD student / postdoctoral researcher / assistant professor] at [University]. My research focuses on [your main research area — e.g. agricultural sustainability, environmental policy], with particular attention to [specific topic or question].</p>
+          <p>I received my [degree] from [University] in [year]. Prior to that, I completed my [earlier degree] at [University].</p>
+          <p>I am currently working on [brief description of current project]. Feel free to reach out — I am always happy to discuss research and collaboration.</p>
         </div>
         <div class="contact-strip">
           <a class="chip" href="mailto:you@university.edu">
